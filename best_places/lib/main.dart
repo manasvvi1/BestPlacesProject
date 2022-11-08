@@ -1,5 +1,4 @@
-import 'package:best_places/drivePage.dart';
-import 'package:best_places/profile.dart';
+import 'package:best_places/login.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(
       ),
-      home: DrivePage(),
+      home: MyLogin(),
     );
   }
 }
